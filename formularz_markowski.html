@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>Formularz_markowski</title>
+</head>
+<body bgcolor="#449ac2">
+
+<h3 align="center">FORMULARZ ZGŁOSZENIOWY DO<br>ZESPOŁU MUZYCZNEGO</h3>
+
+<form>
+<fieldset>
+<table>
+
+
+<tr height="100">
+    <td width="500">
+        <b>Imię</b> <input name="imie" size="22"><br><br>
+        <b>Drugie imię</b> <input name="drugie" size="22"><br><br>
+        <b>Nazwisko</b> <input name="nazwisko" size="22"><br><br>
+        <b>Hasło</b> <input type="password" name="haslo" size="22"><br><br>
+    </td>
+
+    <td width="300">
+        <center><font size="5"><b>Na jakim grasz instrumencie?</b></font></center><br>
+        <center>
+            <select>
+                <option value="gitara">Gitara</option>
+                <option value="pianino">Pianino</option>
+                <option value="perkusja">Perkusja</option>
+                <option value="skrzypce">Skrzypce</option>
+                <option value="trabka">Trąbka</option>
+            </select>
+        </center>
+    </td>
+</tr>
+
+
+<tr height="150">
+    <td width="500">
+        Czy grałeś/aś już w jakimś zespole?<br><br>
+        <input type="checkbox" name="zespol_tak"> Tak<br>
+        <input type="checkbox" name="zespol_nie"> Nie<br><br>
+
+        <nobr>Ile lat grasz na swoim instrumencie?</nobr><br>
+        <input name="lata_grania" size="25" maxlength="100"><br><br>
+
+        <b>Czy śpiewasz?</b><br>
+        <input type="radio" name="spiew" value="tak"> Tak<br>
+        <input type="radio" name="spiew" value="nie"> Nie<br>
+    </td>
+
+    <td width="300">
+        <center><font size="5"><b>Na ile oceniasz swoje umiejętności?</b></font></center><br>
+        <center>
+            <select>
+                <option value="wybitne">Wybitne</option>
+                <option value="bardzo_dobre">Bardzo dobre</option>
+                <option value="przecietne">Przeciętne</option>
+                <option value="slabe">Słabe</option>
+            </select>
+        </center>
+    </td>
+</tr>
+
+
+<tr height="200">
+    <td width="500">
+        <nobr>Czy uczęszczałeś/aś do szkoły muzycznej?</nobr><br><br>
+        <input type="radio" name="szkola" value="tak"> Tak<br>
+        <input type="radio" name="szkola" value="nie"> Nie<br><br>
+
+        <b>Dlaczego powinniśmy cię wybrać?</b><br>
+        <textarea cols="50" rows="4"></textarea><br><br>
+
+        <b>Ile masz lat?</b>
+        <input name="wiek" size="22"><br><br>
+    </td>
+
+    <td width="300"></td>
+</tr>
+
+
+<tr height="100">
+   
+
+    <td>
+        <input type="reset" value="Reset" style="height:80px; width:150px"> 
+        <input type="submit" value="Wyślij formularz" style="height:80px; width:150px">
+    </td>
+</tr>
+
+</table>
+</fieldset>
+</form>
+
+</body>
+</html>
